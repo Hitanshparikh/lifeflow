@@ -1,0 +1,88 @@
+{
+  "site_name": "LifeFlow",
+  "tagline": "Give Blood, Save Life",
+  "home": "Home",
+  "search": "Search Donors",
+  "register": "Register as Donor",
+  "about": "About",
+  "contact": "Contact",
+  "language": "Language",
+  
+  "hero_title": "Every Drop Counts",
+  "hero_subtitle": "Connect with blood donors in your city instantly",
+  "hero_search_placeholder": "Search by blood group or city...",
+  "quick_search": "Quick Search",
+  
+  "register_title": "Become a Life Saver",
+  "register_subtitle": "Join our community of donors and help save lives",
+  "personal_details": "Personal Details",
+  "full_name": "Full Name",
+  "email": "Email Address",
+  "phone": "Phone Number",
+  "date_of_birth": "Date of Birth",
+  "gender": "Gender",
+  "male": "Male",
+  "female": "Female",
+  "other": "Other",
+  
+  "blood_details": "Blood Details",
+  "blood_group": "Blood Group",
+  "last_donation": "Last Donation Date",
+  "health_status": "Health Status",
+  "good": "Good",
+  "excellent": "Excellent",
+  "fair": "Fair",
+  
+  "location_details": "Location Details",
+  "city": "City",
+  "area": "Area/Locality",
+  "address": "Full Address",
+  
+  "availability": "Availability",
+  "available": "Available to Donate",
+  "not_available": "Currently Unavailable",
+  
+  "submit": "Submit Registration",
+  "cancel": "Cancel",
+  
+  "search_title": "Find Blood Donors",
+  "search_subtitle": "Search for donors by blood group and location",
+  "filter_by": "Filter By",
+  "all_blood_groups": "All Blood Groups",
+  "all_cities": "All Cities",
+  "show_available_only": "Show Available Only",
+  "apply_filters": "Apply Filters",
+  "clear_filters": "Clear Filters",
+  
+  "donor_card_available": "Available",
+  "donor_card_resting": "On Rest",
+  "donor_card_eligible_in": "Eligible in",
+  "donor_card_days": "days",
+  "view_contact": "View Contact",
+  "call_now": "Call Now",
+  "whatsapp": "WhatsApp",
+  "hide_contact": "Hide Contact",
+  
+  "no_donors_found": "No donors found matching your criteria",
+  "try_different_filters": "Try adjusting your filters",
+  
+  "footer_tagline": "Together we can save lives, one donation at a time",
+  "privacy_policy": "Privacy Policy",
+  "terms": "Terms of Service",
+  "all_rights_reserved": "All rights reserved",
+  
+  "eligibility_checker": "Check Eligibility",
+  "days_since_donation": "days since last donation",
+  "eligible_to_donate": "Eligible to donate",
+  "rest_period": "Rest period required",
+  
+  "success_registration": "Registration successful! Thank you for joining LifeFlow.",
+  "error_registration": "Registration failed. Please try again.",
+  "required_field": "This field is required",
+  "invalid_email": "Please enter a valid email address",
+  "invalid_phone": "Please enter a valid 10-digit phone number",
+  "age_requirement": "You must be at least 18 years old to donate",
+  
+  "dark_mode": "Dark Mode",
+  "light_mode": "Light Mode"
+}

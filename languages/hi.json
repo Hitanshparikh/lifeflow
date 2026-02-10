@@ -1,0 +1,88 @@
+{
+  "site_name": "लाइफफ्लो",
+  "tagline": "रक्तदान करो, जीवन बचाओ",
+  "home": "होम",
+  "search": "दाताओं को खोजें",
+  "register": "दाता के रूप में पंजीकरण करें",
+  "about": "के बारे में",
+  "contact": "संपर्क",
+  "language": "भाषा",
+  
+  "hero_title": "हर बूंद मायने रखती है",
+  "hero_subtitle": "अपने शहर में रक्तदाताओं से तुरंत जुड़ें",
+  "hero_search_placeholder": "रक्त समूह या शहर द्वारा खोजें...",
+  "quick_search": "त्वरित खोज",
+  
+  "register_title": "जीवन रक्षक बनें",
+  "register_subtitle": "दाताओं के हमारे समुदाय में शामिल हों और जीवन बचाने में मदद करें",
+  "personal_details": "व्यक्तिगत विवरण",
+  "full_name": "पूरा नाम",
+  "email": "ईमेल पता",
+  "phone": "फोन नंबर",
+  "date_of_birth": "जन्म तिथि",
+  "gender": "लिंग",
+  "male": "पुरुष",
+  "female": "महिला",
+  "other": "अन्य",
+  
+  "blood_details": "रक्त विवरण",
+  "blood_group": "रक्त समूह",
+  "last_donation": "अंतिम दान तिथि",
+  "health_status": "स्वास्थ्य स्थिति",
+  "good": "अच्छा",
+  "excellent": "उत्कृष्ट",
+  "fair": "ठीक",
+  
+  "location_details": "स्थान विवरण",
+  "city": "शहर",
+  "area": "क्षेत्र",
+  "address": "पूरा पता",
+  
+  "availability": "उपलब्धता",
+  "available": "दान के लिए उपलब्ध",
+  "not_available": "वर्तमान में अनुपलब्ध",
+  
+  "submit": "पंजीकरण जमा करें",
+  "cancel": "रद्द करें",
+  
+  "search_title": "रक्तदाताओं को खोजें",
+  "search_subtitle": "रक्त समूह और स्थान द्वारा दाताओं को खोजें",
+  "filter_by": "फ़िल्टर करें",
+  "all_blood_groups": "सभी रक्त समूह",
+  "all_cities": "सभी शहर",
+  "show_available_only": "केवल उपलब्ध दिखाएं",
+  "apply_filters": "फ़िल्टर लागू करें",
+  "clear_filters": "फ़िल्टर साफ़ करें",
+  
+  "donor_card_available": "उपलब्ध",
+  "donor_card_resting": "आराम पर",
+  "donor_card_eligible_in": "योग्य",
+  "donor_card_days": "दिनों में",
+  "view_contact": "संपर्क देखें",
+  "call_now": "अभी कॉल करें",
+  "whatsapp": "व्हाट्सएप",
+  "hide_contact": "संपर्क छुपाएं",
+  
+  "no_donors_found": "आपके मानदंडों से मेल खाने वाले कोई दाता नहीं मिले",
+  "try_different_filters": "अपने फ़िल्टर समायोजित करने का प्रयास करें",
+  
+  "footer_tagline": "साथ मिलकर हम जीवन बचा सकते हैं, एक समय में एक दान",
+  "privacy_policy": "गोपनीयता नीति",
+  "terms": "सेवा की शर्तें",
+  "all_rights_reserved": "सर्वाधिकार सुरक्षित",
+  
+  "eligibility_checker": "पात्रता जांचें",
+  "days_since_donation": "अंतिम दान से दिन",
+  "eligible_to_donate": "दान के लिए योग्य",
+  "rest_period": "आराम अवधि आवश्यक",
+  
+  "success_registration": "पंजीकरण सफल! लाइफफ्लो में शामिल होने के लिए धन्यवाद।",
+  "error_registration": "पंजीकरण विफल। कृपया पुनः प्रयास करें।",
+  "required_field": "यह फ़ील्ड आवश्यक है",
+  "invalid_email": "कृपया एक वैध ईमेल पता दर्ज करें",
+  "invalid_phone": "कृपया एक वैध 10-अंकीय फोन नंबर दर्ज करें",
+  "age_requirement": "दान करने के लिए आपकी आयु कम से कम 18 वर्ष होनी चाहिए",
+  
+  "dark_mode": "डार्क मोड",
+  "light_mode": "लाइट मोड"
+}

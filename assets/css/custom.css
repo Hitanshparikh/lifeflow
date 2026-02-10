@@ -1,0 +1,185 @@
+/* LifeFlow Custom Styles */
+
+/* Animation Classes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse-heart {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.animate-slide-in-right {
+    animation: slideInRight 0.3s ease-out;
+}
+
+.animate-pulse-heart {
+    animation: pulse-heart 1.5s ease-in-out infinite;
+}
+
+/* Blood Drop Animation */
+.blood-drop {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #E0115F, #DC2626);
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    animation: drip 2s ease-in-out infinite;
+}
+
+@keyframes drip {
+    0%, 100% {
+        transform: rotate(-45deg) translateY(0);
+    }
+    50% {
+        transform: rotate(-45deg) translateY(10px);
+    }
+}
+
+/* Custom Loading Spinner */
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #E0115F;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Gradient Button Hover Effect */
+.gradient-button {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.gradient-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: left 0.5s;
+    z-index: -1;
+}
+
+.gradient-button:hover::before {
+    left: 100%;
+}
+
+/* Card Shimmer Effect */
+.card-shimmer {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-shimmer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+/* Blood Type Badge Glow */
+.blood-badge-glow {
+    box-shadow: 0 0 20px rgba(224, 17, 95, 0.5);
+    animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 20px rgba(224, 17, 95, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(224, 17, 95, 0.8);
+    }
+}
+
+/* Mobile Optimizations */
+@media (max-width: 640px) {
+    .glass-effect {
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+    }
+    
+    .hover-lift:active {
+        transform: translateY(-2px);
+    }
+}
+
+/* Smooth Transitions */
+* {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Focus Styles for Accessibility */
+*:focus-visible {
+    outline: 2px solid #E0115F;
+    outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+    body {
+        background: white !important;
+    }
+    
+    .glass-effect {
+        background: white !important;
+        border: 1px solid #ddd !important;
+    }
+}

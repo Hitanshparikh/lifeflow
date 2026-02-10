@@ -1,0 +1,123 @@
+# LifeFlow .htaccess Configuration
+# Apache Configuration for Security and Performance
+
+# Enable Rewrite Engine
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /lifeflow/
+    
+    # Force HTTPS (Uncomment for production with SSL)
+    # RewriteCond %{HTTPS} off
+    # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    
+    # Remove .php extension (Optional - uncomment if desired)
+    # RewriteCond %{REQUEST_FILENAME} !-d
+    # RewriteCond %{REQUEST_FILENAME}.php -f
+    # RewriteRule ^(.*)$ $1.php [L]
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+    # Prevent clickjacking
+    Header set X-Frame-Options "SAMEORIGIN"
+    
+    # XSS Protection
+    Header set X-XSS-Protection "1; mode=block"
+    
+    # Prevent MIME sniffing
+    Header set X-Content-Type-Options "nosniff"
+    
+    # Referrer Policy
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    
+    # Content Security Policy (adjust as needed)
+    # Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' cdn.tailwindcss.com unpkg.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src fonts.gstatic.com; img-src 'self' data:;"
+</IfModule>
+
+# Protect sensitive files
+<FilesMatch "^(config\.php|functions\.php|\.env|\.git|\.htaccess)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Protect database file
+<Files "db.sql">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Block access to language files directly (optional)
+# <FilesMatch "\.(json)$">
+#     Order allow,deny
+#     Deny from all
+# </FilesMatch>
+
+# Disable directory browsing
+Options -Indexes
+
+# Enable file compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Browser Caching
+<IfModule mod_expires.c>
+    ExpiresActive On
+    
+    # Images
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    
+    # CSS and JavaScript
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    
+    # Fonts
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    
+    # Default
+    ExpiresDefault "access plus 2 days"
+</IfModule>
+
+# Custom Error Pages (Create these files if needed)
+# ErrorDocument 404 /lifeflow/404.php
+# ErrorDocument 500 /lifeflow/500.php
+
+# PHP Configuration (if allowed)
+<IfModule mod_php7.c>
+    # Display errors (Turn off in production)
+    # php_flag display_errors On
+    # php_flag display_startup_errors On
+    
+    # Security settings
+    php_flag expose_php Off
+    php_flag register_globals Off
+    
+    # File upload limits
+    php_value upload_max_filesize 10M
+    php_value post_max_size 10M
+    
+    # Execution time
+    php_value max_execution_time 300
+    php_value max_input_time 300
+    
+    # Memory limit
+    php_value memory_limit 256M
+</IfModule>
+
+# UTF-8 Encoding
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html .css .js .xml .json .txt
+
+# MIME Types
+<IfModule mod_mime.c>
+    AddType application/javascript js
+    AddType application/json json
+    AddType image/svg+xml svg svgz
+    AddType font/woff woff
+    AddType font/woff2 woff2
+</IfModule>

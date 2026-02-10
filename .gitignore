@@ -1,0 +1,56 @@
+# LifeFlow .gitignore
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+error_log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# PHP
+vendor/
+composer.phar
+composer.lock
+
+# Database
+*.sql.gz
+*.sql.zip
+backup/
+
+# Uploads (if you add file upload feature)
+uploads/
+temp/
+
+# Cache
+cache/
+*.cache
+
+# Session files
+sessions/
+
+# System files
+.htaccess.bak
+php_errors.log
+
+# Don't ignore important files
+!.htaccess
+!.env.example

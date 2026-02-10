@@ -1,0 +1,88 @@
+{
+  "site_name": "લાઇફફ્લો",
+  "tagline": "રક્તદાન કરો, જીવન બચાવો",
+  "home": "મુખપૃષ્ઠ",
+  "search": "દાતાઓ શોધો",
+  "register": "દાતા તરીકે નોંધણી",
+  "about": "વિશે",
+  "contact": "સંપર્ક",
+  "language": "ભાષા",
+  
+  "hero_title": "દરેક ટીપું મહત્વનું છે",
+  "hero_subtitle": "તમારા શહેરમાં રક્તદાતાઓ સાથે તરત જ જોડાઓ",
+  "hero_search_placeholder": "રક્ત જૂથ અથવા શહેર દ્વારા શોધો...",
+  "quick_search": "ઝડપી શોધ",
+  
+  "register_title": "જીવન બચાવનાર બનો",
+  "register_subtitle": "દાતાઓના અમારા સમુદાયમાં જોડાઓ અને જીવન બચાવવામાં મદદ કરો",
+  "personal_details": "વ્યક્તિગત વિગતો",
+  "full_name": "પૂરું નામ",
+  "email": "ઇમેઇલ સરનામું",
+  "phone": "ફોન નંબર",
+  "date_of_birth": "જન્મ તારીખ",
+  "gender": "લિંગ",
+  "male": "પુરુષ",
+  "female": "સ્ત્રી",
+  "other": "અન્ય",
+  
+  "blood_details": "રક્ત વિગતો",
+  "blood_group": "રક્ત જૂથ",
+  "last_donation": "છેલ્લું દાન તારીખ",
+  "health_status": "સ્વાસ્થ્ય સ્થિતિ",
+  "good": "સારું",
+  "excellent": "ઉત્તમ",
+  "fair": "મધ્યમ",
+  
+  "location_details": "સ્થાન વિગતો",
+  "city": "શહેર",
+  "area": "વિસ્તાર",
+  "address": "સંપૂર્ણ સરનામું",
+  
+  "availability": "ઉપલબ્ધતા",
+  "available": "દાન માટે ઉપલબ્ધ",
+  "not_available": "હાલમાં અનુપલબ્ધ",
+  
+  "submit": "નોંધણી સબમિટ કરો",
+  "cancel": "રદ કરો",
+  
+  "search_title": "રક્તદાતાઓ શોધો",
+  "search_subtitle": "રક્ત જૂથ અને સ્થાન દ્વારા દાતાઓ શોધો",
+  "filter_by": "ફિલ્ટર કરો",
+  "all_blood_groups": "બધા રક્ત જૂથો",
+  "all_cities": "બધા શહેરો",
+  "show_available_only": "ફક્ત ઉપલબ્ધ બતાવો",
+  "apply_filters": "ફિલ્ટર લાગુ કરો",
+  "clear_filters": "ફિલ્ટર સાફ કરો",
+  
+  "donor_card_available": "ઉપલબ્ધ",
+  "donor_card_resting": "આરામ પર",
+  "donor_card_eligible_in": "પાત્ર",
+  "donor_card_days": "દિવસમાં",
+  "view_contact": "સંપર્ક જુઓ",
+  "call_now": "હમણાં કૉલ કરો",
+  "whatsapp": "વ્હોટ્સએપ",
+  "hide_contact": "સંપર્ક છુપાવો",
+  
+  "no_donors_found": "તમારા માપદંડને મેચ કરતા કોઈ દાતાઓ મળ્યા નથી",
+  "try_different_filters": "તમારા ફિલ્ટર્સ એડજસ્ટ કરવાનો પ્રયાસ કરો",
+  
+  "footer_tagline": "સાથે મળીને આપણે જીવન બચાવી શકીએ છીએ, એક દાન એક સમયે",
+  "privacy_policy": "ગોપનીયતા નીતિ",
+  "terms": "સેવાની શરતો",
+  "all_rights_reserved": "બધા અધિકારો અનામત",
+  
+  "eligibility_checker": "પાત્રતા તપાસો",
+  "days_since_donation": "છેલ્લા દાનથી દિવસો",
+  "eligible_to_donate": "દાન માટે પાત્ર",
+  "rest_period": "આરામ સમયગાળો જરૂરી",
+  
+  "success_registration": "નોંધણી સફળ! લાઇફફ્લોમાં જોડાવા બદલ આભાર.",
+  "error_registration": "નોંધણી નિષ્ફળ. કૃપા કરીને ફરી પ્રયાસ કરો.",
+  "required_field": "આ ક્ષેત્ર જરૂરી છે",
+  "invalid_email": "કૃપા કરીને માન્ય ઇમેઇલ સરનામું દાખલ કરો",
+  "invalid_phone": "કૃપા કરીને માન્ય 10-અંકનો ફોન નંબર દાખલ કરો",
+  "age_requirement": "દાન કરવા માટે તમારી ઉંમર ઓછામાં ઓછી 18 વર્ષ હોવી જોઈએ",
+  
+  "dark_mode": "ડાર્ક મોડ",
+  "light_mode": "લાઇટ મોડ"
+}
