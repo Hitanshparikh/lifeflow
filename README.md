@@ -332,7 +332,7 @@ This project is created for educational purposes. Feel free to use and modify as
 ---
 
 <div align="center">
-  <strong>Made with ❤️ for saving lives</strong>
+  <strong>Made By HiVizStudios for saving lives</strong>
   <br>
   <em>Every drop counts. Every donor matters.</em>
 </div>
