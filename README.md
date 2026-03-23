@@ -1,4 +1,4 @@
-# 🩸 LifeFlow - Blood Donor Search & Registration System
+#  LifeFlow - Blood Donor Search & Registration System
 
 <div align="center">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
@@ -7,13 +7,13 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </div>
 
-## 📋 Overview
+##  Overview
 
 **LifeFlow** is a premium, mobile-friendly Blood Donor Search & Registration System designed to connect blood donors with those in need. Built with modern web technologies, it features a sleek UI, real-time search, multilingual support, and privacy-focused donor management.
 
-## ✨ Key Features
+##  Key Features
 
-### 🎨 Premium UI/UX
+###  Premium UI/UX
 - **Modern Health Aesthetic** - Clean white backgrounds, soft shadows, rounded corners
 - **Heart-Red Accent Color** (#E0115F) throughout the design
 - **Glassmorphism Effects** - Contemporary frosted glass design elements
@@ -21,38 +21,38 @@
 - **Smooth Animations** - CSS transitions and hover effects for a polished feel
 - **Responsive Design** - Fully mobile-optimized for all screen sizes
 
-### 🔍 Smart Search System
+###  Smart Search System
 - **Real-Time Filtering** - Filter by blood group, city, and availability
 - **No Page Reloads** - Smooth filtering experience with instant results
 - **Advanced Filters** - Show only available donors
 - **Blood Type Distribution** - Visual representation of donor statistics
 
-### 🌐 Multilingual Support
+###  Multilingual Support
 - **3 Languages** - English, Gujarati (ગુજરાતી), Hindi (हिन्दी)
 - **JSON-Based Translations** - Easy to add more languages
 - **Session-Based** - Language preference saved throughout the session
 - **Complete Coverage** - All UI elements fully translated
 
-### 🔒 Privacy & Security
+###  Privacy & Security
 - **Hidden Contact Info** - Phone numbers masked by default (****1234)
 - **View Contact Button** - Reveal contact only when needed
 - **Activity Logging** - Track who viewed contact information
 - **Secure Database** - Prepared statements to prevent SQL injection
 - **Input Sanitization** - All user inputs properly validated and cleaned
 
-### 📱 Mobile-First Features
+###  Mobile-First Features
 - **One-Tap Calling** - Direct phone integration with `tel:` protocol
 - **WhatsApp Integration** - Pre-filled message to contact donors instantly
 - **Thumb-Friendly Buttons** - Large, easy-to-tap action buttons
 - **Touch Optimizations** - Smooth interactions on mobile devices
 
-### 🩺 Blood Donation Management
+###  Blood Donation Management
 - **Eligibility Checker** - Automatic calculation based on 90-day rule
 - **Last Donation Tracking** - Shows days since last donation
 - **Availability Status** - Donors can mark themselves as available/unavailable
 - **Health Status** - Track donor health condition (Good, Excellent, Fair)
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Backend**: PHP 7.4+
 - **Database**: MySQL 5.7+ / phpMyAdmin
@@ -61,7 +61,7 @@
 - **Icons**: Lucide Icons
 - **Fonts**: Google Fonts (Inter)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 lifeflow/
@@ -89,7 +89,7 @@ lifeflow/
 └── README.md                   # Documentation
 ```
 
-## 🚀 Installation Guide
+##  Installation Guide
 
 ### Prerequisites
 - XAMPP/WAMP/LAMP (Apache, MySQL, PHP)
@@ -138,7 +138,7 @@ define('DB_NAME', 'lifeflow');
 - **Test** multilingual support with the language switcher
 - **Try** dark mode toggle in the header
 
-## 📊 Database Schema
+##  Database Schema
 
 ### Donors Table
 | Field | Type | Description |
@@ -171,7 +171,7 @@ define('DB_NAME', 'lifeflow');
 | viewer_info | TEXT | Browser/device info |
 | viewed_at | TIMESTAMP | View timestamp |
 
-## 🎯 Core Features Implementation
+##  Core Features Implementation
 
 ### 1. Blood Group Search
 ```php
@@ -206,7 +206,7 @@ https://wa.me/919876543210?text=...
 $_SESSION['lang'] = 'gu'; // or 'hi', 'en'
 ```
 
-## 🔧 Configuration Options
+##  Configuration Options
 
 ### Enable/Disable Features
 Edit `includes/config.php`:
@@ -228,7 +228,7 @@ colors: {
 }
 ```
 
-## 📱 API Endpoints
+##  API Endpoints
 
 ### Log Contact View
 ```javascript
@@ -240,9 +240,9 @@ Content-Type: application/json
 }
 ```
 
-## 🌟 Premium Features
+##  Premium Features
 
-### ✅ Implemented
+###  Implemented
 - [x] Glassmorphism UI effects
 - [x] Dark mode support
 - [x] Multilingual (3 languages)
@@ -256,7 +256,7 @@ Content-Type: application/json
 - [x] Blood type distribution stats
 - [x] Smooth animations & transitions
 
-### 🎁 Bonus Features You Can Add
+###  Bonus Features You Can Add
 - [ ] Admin dashboard
 - [ ] Email notifications
 - [ ] SMS integration
@@ -268,7 +268,7 @@ Content-Type: application/json
 - [ ] Nearby donor finder (GPS-based)
 - [ ] Appointment booking system
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Database Connection Error
 ```
@@ -294,7 +294,7 @@ Form submits without validation
 ```
 **Solution**: Ensure JavaScript is enabled in browser
 
-## 📈 Performance Tips
+##  Performance Tips
 
 1. **Enable Caching**: Use PHP OPcache for better performance
 2. **Optimize Images**: Compress images in `/assets/images/`
@@ -302,7 +302,7 @@ Form submits without validation
 4. **Database Indexing**: Already added on blood_group, city, availability
 5. **CDN for Libraries**: Use CDN for Tailwind and Lucide (already configured)
 
-## 🔐 Security Best Practices
+##  Security Best Practices
 
 - ✅ Prepared statements (SQL injection prevention)
 - ✅ Input sanitization
@@ -312,22 +312,22 @@ Form submits without validation
 - ✅ Session security
 - ✅ HTTPS (recommended for production)
 
-## 📞 Support & Contact
+##  Support & Contact
 
 For questions or issues, please contact:
 - **Email**: contact@lifeflow.com
 - **Website**: http://localhost/lifeflow
 
-## 📜 License
+##  License
 
 This project is created for educational purposes. Feel free to use and modify as needed.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Tailwind CSS** - For the amazing utility-first CSS framework
 - **Lucide Icons** - For beautiful, consistent icons
 - **PHP Community** - For excellent documentation and support
-- **Blood Donors** - For being real-life heroes ❤️
+- **Blood Donors** - For being real-life heroes 
 
 ---
 
